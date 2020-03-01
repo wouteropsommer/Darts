@@ -241,3 +241,8 @@ dmypy.json
 
 # pytype static type analyzer
 .pytype/
+
+.gitignore
+node_modules
+
+dataset5dartss1/
