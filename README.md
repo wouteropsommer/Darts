@@ -8,16 +8,16 @@ Om het zo simpel mogelijk te maken kijken we dus enkel naar één driehoekje van
 
 ## cropper
 
-![alt text](https://github.com/wouteropsommer/Darts/blob/master/cropper/dataset5dartss1/noncropped/20200301_102953.jpg)
+![alt text](./cropper/dataset5dartss1/noncropped/20200301_102953.jpg)
 
-![alt text](https://github.com/wouteropsommer/Darts/blob/master/cropper/dataset5dartss1/cropped/20200301_102953.jpg)
+![alt text](./cropper/dataset5dartss1/cropped/20200301_102953.jpg)
 
 
 ## pizzacutter
 
-<img src="https://github.com/wouteropsommer/test/blob/master/1.webp" width="350"> <img src="https://github.com/wouteropsommer/test/blob/master/2.webp" width="350">
+<img src="./pizzacutter/1.webp" width="350"> <img src="./pizzacutter/2.webp" width="350">
 
-<img src="https://github.com/wouteropsommer/test/blob/master/5.webp" width="350"> <img src="https://github.com/wouteropsommer/test/blob/master/6.webp" width="350">
+<img src="./pizzacutter/5.webp" width="350"> <img src="./pizzacutter/6.webp" width="350">
 
 Nu zou ik enkel nog de foto's moeten kunnen draaien om de data te normaliseren (ze zijn gelabeld met hoeveel graden ze nog moeten draaien) en dan nog labelen met waar het pijltje zit. Wanneer dit gebeurd is kan ik een paar dingen uitproberen en bespreken in mijn bachelorproef indien er interessante resultaten zijn.
 
