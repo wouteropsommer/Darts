@@ -2,9 +2,9 @@
 
 ## Update
 
-Ik wou nu toch nog eens kijken/bespreken waarom keras niet de juiste aanpak is. Ik heb dus een kleine dataset aangemaakt waarmee ik zou willen zien of de AI simpelweg een pijltje kan herkennen of niet. Ik denk dat een te grote dataset een van de grote problemen is die deze mogelijkheid beperkt. Daarom heb ik geprobeerd om met een beperkte dataset toch nog een voldoende nauwkeurigheid te bekomen.
+Ik wou nu toch nog eens kijken/bespreken waarom keras niet de juiste aanpak is. Ik heb dus een kleine dataset aangemaakt waarmee ik zou willen zien of de AI simpelweg een pijltje kan herkennen of niet. Ik denk dat een te grote dataset een van de grote problemen is die deze mogelijkheid beperkt dus we houden alles zo eenvoudig mogelijk.
 
-Om het zo simpel mogelijk te maken kijken we dus enkel naar één driehoekje van het bord. Hiervoor heb ik 2 scriptjes geschreven. Het eerste neemt (met vastliggende coördinaten) het center. Het 2de snijdt de vakjes eruit en maakt van 1 foto 20 foto's. Dit hielp enorm om op een korte tijd toch een degelijke dataset te maken.
+We kijken enkel naar één driehoekje van het bord. Hiervoor heb ik 2 scriptjes geschreven. Het eerste neemt (met vastliggende coördinaten) het center. Het 2de snijdt de vakjes eruit en maakt van 1 foto 20 foto's. Dit hielp enorm om op een korte tijd toch een degelijke dataset te maken.
 
 ## cropper
 
