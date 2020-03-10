@@ -1,19 +1,28 @@
 # Darts
 
-## Update
+## Update 10/03
+
+Ik heb een paar aanpassingen gedaan aan de dataset. De 2 buren van de uitgeknipte stukjes staan er nu ook bij zodat een groter deel van de pijl zichtbaar is. Dataset is ondertussen ook gedraaid zodat de vakjes altijd op dezelfde plaats staan. Voor het labelen geven we mee hoeveel pijltjes er in de trippel, dubbel of enkel zitten. Bijvoorbeeld 0 0 0  => geen enkel pijtlje.
+
+![voorbeeld dataset](./labelen/example.PNG)
+
+We hebben veel vordering gemaakt met OpenCV dus daar komt ook nog een update over deze week.
+
+
+## Update 2/03
 
 Ik wou nu toch nog eens kijken/bespreken waarom keras niet de juiste aanpak is. Ik heb dus een kleine dataset aangemaakt waarmee ik zou willen zien of de AI simpelweg een pijltje kan herkennen of niet. Ik denk dat een te grote dataset een van de grote problemen is die deze mogelijkheid beperkt dus we houden alles zo eenvoudig mogelijk.
 
 We kijken enkel naar één driehoekje van het bord. Hiervoor heb ik 2 scriptjes geschreven. Het eerste neemt (met vastliggende coördinaten) het center. Het 2de snijdt de vakjes eruit en maakt van 1 foto 20 foto's. Dit hielp enorm om op een korte tijd toch een degelijke dataset te maken.
 
-## cropper
+### cropper
 
 ![alt text](./cropper/dataset5dartss1/noncropped/20200301_102953.jpg)
 
 ![alt text](./cropper/dataset5dartss1/cropped/20200301_102953.jpg)
 
 
-## pizzacutter
+### pizzacutter
 
 <img src="./pizzacutter/1.webp" width="350"> <img src="./pizzacutter/2.webp" width="350">
 
