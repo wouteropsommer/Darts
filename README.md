@@ -1,5 +1,19 @@
 # Darts
 
+## Update 12/03
+
+### score-calculator
+We gebruiken OpenCV om het verschil tussen 2 foto's te berekenen. Over de verschillen plaatsen we een bounding box en een mask.
+
+Voor het bepalen van de punt kijken we enkel naar de uiterste pixel. Indien de pijl naar boven zit, nemen we de hoogste pixel. Indien de pijl naar links zit, nemen we de uiterst linkse pixel, enz.
+
+Via de bounding box krijgen we een rechthoek. Hiermee kunnen we bepalen of de pijl horizontaal of verticaal in het bord zit. We splitsen de rechthoek zo op, dat in één deel de punt zit en in het andere deel de staart. Vervolgens bepalen we voor elk klein rechthoekje een gewicht dat overeenkomt met de hoeveelheid pixels. Het grootste gewicht bevat de staart. Het kleinste gewicht bevat de punt.
+
+De coördinaten omzetten naar een score gebeurt via de afstand en hoek tegenover het middelpunt. Via de hoek weten we in welk vakje de pijl zit en via de afstand kunnen we bepalen of het zich bevindt in x3, x2, x1, buitenroos of roos.
+
+![voorbeeld score-calculator](./imageDifferentiation/example.png)
+
+
 ## Update 10/03
 
 Ik heb een paar aanpassingen gedaan aan de dataset. De 2 buren van de uitgeknipte stukjes staan er nu ook bij zodat een groter deel van de pijl zichtbaar is. Dataset is ondertussen ook gedraaid zodat de vakjes altijd op dezelfde plaats staan. Voor het labelen geven we mee hoeveel pijltjes er in de trippel, dubbel of enkel zitten. Bijvoorbeeld 0 0 0  => geen enkel pijtlje.
